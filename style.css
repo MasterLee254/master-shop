@@ -1,24 +1,53 @@
 /*style.css*/
 
-body {padding: 8px;}
+body {
+    padding: 8px 30px;
+
+}
 
 .header {
     background-color: rgb(37, 35, 35);
     color: white;
-    margin: 24px;
+    margin: 48px;
 }
 
 .top {
     display: flex;
-    justify-content: space-between;
+    margin: 30px 50px;
 }
 
 a {
     color: white;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 #right {
     margin-left: auto;
     padding: 14px;
+}
+
+.logo {
+    height: auto;
+    width: 200px;
+    margin: 14px;
+}
+
+.bottom {
+    margin: 30px 50px;
+    display: flex;
+}
+
+#left {
+    flex-direction: column;
+    width: 500px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px;
 }
