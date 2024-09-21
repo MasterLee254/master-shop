@@ -51,3 +51,23 @@ button {
     border-radius: 12px;
     padding: 12px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 30px 50px;
+}
+
+.subcontainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    border: 2px solid blue;
+}
